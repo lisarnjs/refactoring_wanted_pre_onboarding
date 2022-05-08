@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/refactoring-wanted-pre-onboarding/static/css/main.ca27d981.css",
+    "main.js": "/refactoring-wanted-pre-onboarding/static/js/main.a0c739d8.js",
+    "static/js/787.364214df.chunk.js": "/refactoring-wanted-pre-onboarding/static/js/787.364214df.chunk.js",
+    "index.html": "/refactoring-wanted-pre-onboarding/index.html",
+    "main.ca27d981.css.map": "/refactoring-wanted-pre-onboarding/static/css/main.ca27d981.css.map",
+    "main.a0c739d8.js.map": "/refactoring-wanted-pre-onboarding/static/js/main.a0c739d8.js.map",
+    "787.364214df.chunk.js.map": "/refactoring-wanted-pre-onboarding/static/js/787.364214df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca27d981.css",
+    "static/js/main.a0c739d8.js"
+  ]
+}
