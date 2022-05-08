@@ -1,4 +1,5 @@
-import styles from './Routes.module.scss'
+import Input from './Input'
+// import styles from './Routes.module.scss'
 import Tab from './Tab'
 import Toggle from './Toggle'
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Toggle />
       <Tab />
+      <Input />
     </div>
   )
 }

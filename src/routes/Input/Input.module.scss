@@ -1,0 +1,56 @@
+@use '/src/styles/constants/colors';
+
+.form {
+  width: 400px;
+  height: 250px;
+  padding: 15px;
+  margin: 40px auto;
+  background-color: colors.$GRAYD;
+}
+
+.inputBox {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  padding-top: 10px;
+
+  span {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    height: 45%;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    background-color: whitesmoke;
+    border: 1px solid colors.$COLOR_INPUT;
+    border-radius: 5px;
+
+    &::placeholder {
+      color: colors.$COLOR_INPUT;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    top: 48%;
+    right: 10px;
+    color: colors.$GRAYD;
+
+    &.check {
+      color: colors.$BLUE;
+    }
+
+    .show {
+      color: colors.$BLUE;
+    }
+  }
+
+  .emailInvalidAlert {
+    font-size: 14px;
+    color: colors.$RED;
+  }
+}
