@@ -12,12 +12,12 @@ function Toggle() {
 
   return (
     <ul className={styles.toggle}>
-      <li className={cx(toggle === '기본' && `${styles.active}`)}>
+      <li className={cx(toggle === '기본' && styles.active)}>
         <button type='button' onClick={handleClicked} title='기본'>
           기본
         </button>
       </li>
-      <li className={cx(toggle === '상세' && `${styles.active}`)}>
+      <li className={cx(toggle === '상세' && styles.active)}>
         <button type='button' onClick={handleClicked} title='상세'>
           상세
         </button>
