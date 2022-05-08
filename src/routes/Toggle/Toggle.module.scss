@@ -1,0 +1,32 @@
+@use '/src/styles/constants/colors';
+
+.toggle {
+  display: flex;
+  height: 44px;
+  background-color: colors.$GRAYA;
+  border-radius: 22px;
+}
+
+li {
+  flex: 1;
+  width: 240px;
+  height: 40px;
+  margin: 2px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 20px;
+
+  button {
+    font-size: 16px;
+    font-weight: 600;
+    color: colors.$GRAY6;
+  }
+}
+
+.active {
+  background-color: colors.$WHITE;
+
+  button {
+    color: colors.$BLACK;
+  }
+}

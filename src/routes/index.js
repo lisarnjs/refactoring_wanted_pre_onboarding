@@ -1,10 +1,10 @@
 import styles from './Routes.module.scss'
-import TodoList from './TodoList'
+import Toggle from './Toggle'
 
 function App() {
   return (
-    <div className={styles.app}>
-      <TodoList />
+    <div>
+      <Toggle />
     </div>
   )
 }
