@@ -2,7 +2,9 @@
 
 .toggle {
   display: flex;
+  width: 480px;
   height: 44px;
+  margin: 20px auto;
   background-color: colors.$GRAYA;
   border-radius: 22px;
 }
@@ -27,6 +29,7 @@ li {
 
 .active {
   background-color: colors.$WHITE;
+  transition: all 0.3s;
 
   button {
     color: colors.$BLACK;
